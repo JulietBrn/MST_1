@@ -1,0 +1,51 @@
+:root {
+  --white-color: #ffffff;
+  --gray-600: #282829;
+  --gray-800: #222222;
+  --dark-color: var(--gray-800);
+  --bg-color: var(--gray-600);
+  --text-color: var(--white-color);
+}
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1560px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Prata";
+  src: local("Prata");
+  src: url(assets/font/Prata/Prata-Regular.ttf);
+}
+h1, .h1 {
+  font-family: "Prata", serif;
+  font-size: 80px;
+}
+
+.list-hero span {
+  font-size: 40px;
+  font-family: "Prata", serif;
+}/*# sourceMappingURL=style.css.map */
