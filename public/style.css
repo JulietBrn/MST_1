@@ -73,12 +73,12 @@ a {
 @font-face {
   font-family: "Prata";
   src: local("Prata");
-  src: url(../assets/font/Prata/Prata-Regular.ttf);
+  src: url(./assets/font/Prata/Prata-Regular.ttf);
 }
 @font-face {
   font-family: "Arial";
   src: local("Arial");
-  src: url(../assets/font/Arial.ttf);
+  src: url(./assets/font/Arial.ttf);
 }
 h1,
 .h1 {
@@ -603,7 +603,7 @@ p, a {
 .list-advantages__item {
   font-size: 18px;
   line-height: 140%;
-  background-image: url("../assets/svg/item.svg");
+  background-image: url("./assets/svg/item.svg");
   background-repeat: no-repeat;
   background-position: 0 calc(var(--item-padding) + 6px);
   background-size: 2.3em;
